@@ -1,0 +1,60 @@
+header {
+  padding: 20px;
+  color: $heading-text-color;
+  nav {
+    width: 50%;
+
+    li {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: -0.025em;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: $heading-text-color;
+    }
+  }
+
+  h4,
+  p {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    color: $paragraph-text-color;
+  }
+}
+
+.sign-in {
+  width: 25%;
+  padding: 10px;
+  align-items: center;
+}
+
+.sign-in img {
+  height: 32px;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.image-box {
+  margin-right: 20px;
+  height: 32px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}

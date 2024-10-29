@@ -1,0 +1,29 @@
+.product-img {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.heart-bg {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.new-in-box {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  background: #423496;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-transform: uppercase;
+  color: $heading-text-color;
+}

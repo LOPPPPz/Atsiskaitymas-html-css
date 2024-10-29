@@ -1,0 +1,7 @@
+@mixin paragraph($font-weight, $font-size) {
+  color: $paragraph-text-color;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: 36px;
+  letter: -2, 5%;
+}

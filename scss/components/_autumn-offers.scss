@@ -1,0 +1,41 @@
+.autumn-offers {
+  position: relative;
+  height: 75vh;
+  background: linear-gradient(
+    251deg,
+    rgba(167, 59, 39, 1),
+    rgba(98, 129, 41, 0.512744) 59.21%,
+    rgba(25, 202, 43, 0) 76.17%
+  );
+  background-blend-mode: multiply;
+  margin-bottom: 10vh;
+
+  h2,
+  p {
+    font-weight: 700;
+    color: $heading-text-color;
+  }
+
+  h2 {
+    font-size: 170px;
+    line-height: 180px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+.autumn-text {
+  position: absolute;
+  left: 0;
+  top: 30vh;
+}
+
+.autumn-image {
+  position: absolute;
+  right: -200px;
+  bottom: 10px;
+}

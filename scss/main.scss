@@ -1,0 +1,23 @@
+@import "./base/reset";
+@import "./base/variables";
+@import "./base/mixins";
+@import "./components/hero-section";
+@import "./components/header";
+@import "./components/collections";
+@import "./components/product-img-styling";
+@import "./components/style-sections";
+@import "./components/autumn-offers";
+@import "./components/heels-section";
+@import "./components/footer";
+
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #000000;
+  font-family: Ubuntu;
+}
+
+.test {
+  background-color: blue;
+  min-height: 400px;
+}

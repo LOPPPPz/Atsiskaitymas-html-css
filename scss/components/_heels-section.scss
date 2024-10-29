@@ -1,0 +1,61 @@
+.heels-section {
+  height: 80vh;
+  justify-content: space-between;
+  align-items: center;
+
+  .heels-text {
+    margin-right: 60px;
+    h2 {
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 64px;
+      text-align: center;
+      color: $heading-text-color;
+      margin-bottom: 15px;
+    }
+  }
+
+  .top-paragraph {
+    @include paragraph(700, 40px);
+    img {
+      width: 30%;
+    }
+    margin-bottom: 30px;
+  }
+
+  .bottom-paragraph {
+    @include paragraph(700, 18px);
+    margin-bottom: 30px;
+  }
+}
+
+.btn-collection {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 48px;
+  width: 200px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.heels-background {
+  background: rgb(123, 129, 41);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(123, 129, 41, 0.51) 31%,
+    rgba(202, 124, 25, 0) 57%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(123, 129, 41, 0.51) 31%,
+    rgba(202, 124, 25, 0) 57%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(123, 129, 41, 0.51) 31%,
+    rgba(202, 124, 25, 0) 57%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7b8129",endColorstr="#ca7c19",GradientType=1);
+}

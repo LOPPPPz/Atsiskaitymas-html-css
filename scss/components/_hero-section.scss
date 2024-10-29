@@ -1,0 +1,78 @@
+.hero-section {
+  height: 100vh;
+  position: relative;
+
+  h2 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    color: $heading-text-color;
+  }
+  .top-paragraph {
+    @include paragraph(700, 36px);
+  }
+
+  .bottom-paragraph {
+    @include paragraph(500, 24px);
+    margin-bottom: 30px;
+  }
+}
+
+.text-box {
+  width: 40%;
+  position: absolute;
+  left: 60px;
+  top: 250px;
+}
+
+.serach-bar {
+  background-color: #161616;
+  border-radius: 100px;
+  width: 80%;
+  padding: 8px 8px 8px 24px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+
+  input {
+    background-color: #161616;
+    border: none;
+    width: 65%;
+  }
+  button {
+    background-color: #ffffff;
+    padding: 8px 32px;
+    border-radius: 33px;
+    height: 100%;
+    border: none;
+  }
+}
+
+.hero-image {
+  position: absolute;
+  right: 0px;
+}
+
+.hero-scroll {
+  position: absolute;
+  bottom: 80px;
+  left: 60px;
+
+  span {
+    margin-left: 40px;
+    color: $heading-text-color;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+
+.hero-extras {
+  position: absolute;
+  bottom: 80px;
+  right: 0px;
+  img {
+    margin: 20px;
+  }
+}
