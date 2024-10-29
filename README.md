@@ -1,2 +1,2 @@
 # Atsiskaitymas-html-css
-Atsiskaitym'o ketvirta uzduotis (be veikiancios media dalies)
+Atsiskaitymo ketvirta uzduotis (be veikiancios media dalies)
