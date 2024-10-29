@@ -5,11 +5,11 @@
 }
 
 .hero-section {
-  height: 100vh;
+  height: 200vh;
   position: relative;
 }
 .hero-section h2 {
-  font-size: 72px;
+  font-size: 92px;
   font-weight: 700;
   line-height: 72px;
   letter-spacing: -0.025em;
